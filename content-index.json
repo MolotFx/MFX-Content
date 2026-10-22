@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T03:20:45.3583659Z",
+  "generatedAt": "2026-10-22T03:27:13.1602659Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -79,6 +79,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/EMT 140 U",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "lexicon-480lv1",
+      "name": "Lexicon 480L vol.1",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free impulse responses from the Lexicon 480L reverberator, vol. 1",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/lexicon-480lv1.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/lexicon-480lv1-v1.0.0/lexicon-480lv1-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 44047367,
+        "sha256": "eeb9db8ee08c47c12b49a64a923cbe5d48a9c11006cf7f92bfad518a26afe220"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/Lexicon 480L vol.1",
         "stripRoot": true
       }
     },
