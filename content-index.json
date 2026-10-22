@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T03:10:37.225346Z",
+  "generatedAt": "2026-10-22T03:20:45.3583659Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -59,6 +59,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/DreamVerb U",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "emt-140-u",
+      "name": "EMT 140 U",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free impulse response set for the EMT 140 plate reverb, sampled from UAD",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/emt-140-u.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/emt-140-u-v1.0.0/emt-140-u-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 25554998,
+        "sha256": "c9992703a29e9f1cca046ca5f62a6d9c34b6c444a6422afa51bbb57bdcc3fe2d"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/EMT 140 U",
         "stripRoot": true
       }
     },
