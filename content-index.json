@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T02:23:05.8701795Z",
+  "generatedAt": "2026-10-22T02:25:17.4869563Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -39,6 +39,26 @@
       },
       "install": {
         "targetSubfolder": "Data/DEVICE/Devices EXP A",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "dreamverb-u",
+      "name": "DreamVerb U",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free set of reverb impulse responses: DreamVerb by UAD",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/dreamverb-u.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/dreamverb-u-v1.0.0/dreamverb-u-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 23409238,
+        "sha256": "726cb8f08514d5ec4ca09300c67314e9045b6ea5fb275a5b1f7d2b077cdf7d92"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/DreamVerb U",
         "stripRoot": true
       }
     },
