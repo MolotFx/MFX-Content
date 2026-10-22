@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T02:25:17.4869563Z",
+  "generatedAt": "2026-10-22T03:10:37.225346Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -99,6 +99,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/Quantec RSXL",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "spx990",
+      "name": "SPX990",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free set of impulse responses from the Yamaha SPX990 reverb unit",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/spx990.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/spx990-v1.0.0/spx990-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 23306466,
+        "sha256": "7996014ae09351dd4626d96ea9d9e739a5c3cb4adbb94e4f3a4c2108466d1f46"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/SPX990",
         "stripRoot": true
       }
     }
