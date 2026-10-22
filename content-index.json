@@ -1,26 +1,4 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T01:07:19.9182285Z",
-  "packages": [
-    {
-      "id": "01-chernobyl-rev-legacy",
-      "name": "01 Chernobyl Rev Legacy",
-      "category": "IREV",
-      "version": "1.0.0",
-      "description": "Experience the sounds of abandoned places within the Exclusion Zone. Suitable for film, games, and sound design.",
-      "thumbnailUrl": null,
-      "archive": {
-        "urls": [
-          "https://github.com/MolotFX/mfx-content/releases/download/01-chernobyl-rev-legacy-v1.0.0/01-chernobyl-rev-legacy-v1.0.0.7z"
-        ],
-        "format": "7z",
-        "sizeBytes": 26295329,
-        "sha256": "b39fb53204d94f17c86c3fb06edc8b2c6a6f7bcf369d27cffcd5016da92a6e1e"
-      },
-      "install": {
-        "targetSubfolder": "IREV/01 Chernobyl Rev Legacy",
-        "stripRoot": true
-      }
-    }
-  ]
+  "packages": []
 }
