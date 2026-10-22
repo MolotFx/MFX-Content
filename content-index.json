@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T11:27:15.4314061Z",
+  "generatedAt": "2026-10-22T11:30:17.5760262Z",
   "packages": [
     {
       "id": "00-noises-starter",
@@ -219,6 +219,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/SPX990",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "starter-devices",
+      "name": "00 STARTER DEVICES",
+      "category": "DEVICE",
+      "version": "1.0.0",
+      "description": "Minimum set for the DEVICE module",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/starter-devices.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/starter-devices-v1.0.0/starter-devices-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 147015,
+        "sha256": "408e35cc22914bc873f8d02b0bd9c1e9270fe18c45e5e3d48d31d3ee5bf6cf26"
+      },
+      "install": {
+        "targetSubfolder": "Data/DEVICE/00 STARTER DEVICES",
         "stripRoot": true
       }
     }
