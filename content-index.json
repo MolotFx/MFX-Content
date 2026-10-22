@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T03:27:13.1602659Z",
+  "generatedAt": "2026-10-22T03:29:40.6831128Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -19,6 +19,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/01 Chernobyl Rev Legacy",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "02-mozoverb",
+      "name": "02 MozoVerb",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free sampled reverb impulses for MozoVerb",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/02-mozoverb.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/02-mozoverb-v1.0.0/02-mozoverb-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 69524182,
+        "sha256": "8f646ef9fba3a67758c20d42e918ce71f5c7c2075d7f310e027c750eeee280f0"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/02 MozoVerb",
         "stripRoot": true
       }
     },
