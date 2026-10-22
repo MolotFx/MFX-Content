@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T02:20:29.1666555Z",
+  "generatedAt": "2026-10-22T02:23:05.8701795Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -39,6 +39,26 @@
       },
       "install": {
         "targetSubfolder": "Data/DEVICE/Devices EXP A",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "lexicon-960",
+      "name": "Lexicon 960",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Free impulse response set for the Lexicon 960 reverb",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/lexicon-960.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/lexicon-960-v1.0.0/lexicon-960-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 33474286,
+        "sha256": "720580a22f397723d2e0ecc43e7c041dffa53f6ba5fc36dd60abb93d98a76e4a"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/Lexicon 960",
         "stripRoot": true
       }
     },
