@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T11:14:26.1038371Z",
+  "generatedAt": "2026-10-22T11:27:15.4314061Z",
   "packages": [
+    {
+      "id": "00-noises-starter",
+      "name": "00 NOISES STARTER",
+      "category": "NOISES",
+      "version": "1.0.0",
+      "description": "A minimal set of NOISE types for a Noiser module",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/00-noises-starter.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/00-noises-starter-v1.0.0/00-noises-starter-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 40880851,
+        "sha256": "8b86da8c54ceaf1090cf1338f3c3a4350c4c32bf34f61b1c363d4ffd76e637e3"
+      },
+      "install": {
+        "targetSubfolder": "Data/NOISES/00 NOISES STARTER",
+        "stripRoot": true
+      }
+    },
     {
       "id": "00-starter-pack",
       "name": "00 Starter Pack",
