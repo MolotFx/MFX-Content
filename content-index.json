@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T01:42:36.7876076Z",
+  "generatedAt": "2026-10-22T02:01:22.3745983Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -19,6 +19,26 @@
       },
       "install": {
         "targetSubfolder": "Data/IREV/01 Chernobyl Rev Legacy",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "devices-exp-a",
+      "name": "Devices EXP A",
+      "category": "DEVICE",
+      "version": "1.0.0",
+      "description": "A small set of speakers and microphones",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/devices-exp-a.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/devices-exp-a-v1.0.0/devices-exp-a-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 6935599,
+        "sha256": "af49056c0e30e28af8ad3dc1d55fbb704ed4f31e6c9d974075d7f0022bd8675f"
+      },
+      "install": {
+        "targetSubfolder": "Data/DEVICE/Devices EXP A",
         "stripRoot": true
       }
     }
