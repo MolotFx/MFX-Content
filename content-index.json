@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T02:01:22.3745983Z",
+  "generatedAt": "2026-10-22T02:20:29.1666555Z",
   "packages": [
     {
       "id": "01-chernobyl-rev-legacy",
@@ -39,6 +39,26 @@
       },
       "install": {
         "targetSubfolder": "Data/DEVICE/Devices EXP A",
+        "stripRoot": true
+      }
+    },
+    {
+      "id": "quantec-rsxl",
+      "name": "Quantec RSXL",
+      "category": "IREV",
+      "version": "1.0.0",
+      "description": "Quantec RSXL reverberator impulse response set (free)",
+      "thumbnailUrl": "https://raw.githubusercontent.com/MolotFX/mfx-content/main/thumbnails/quantec-rsxl.png",
+      "archive": {
+        "urls": [
+          "https://github.com/MolotFX/mfx-content/releases/download/quantec-rsxl-v1.0.0/quantec-rsxl-v1.0.0.7z"
+        ],
+        "format": "7z",
+        "sizeBytes": 31829334,
+        "sha256": "8cb44dba5ebe9629214c1e6dc2dfb14a811a8a3e0fdd04361d196579e4059b5d"
+      },
+      "install": {
+        "targetSubfolder": "Data/IREV/Quantec RSXL",
         "stripRoot": true
       }
     }
